@@ -1,7 +1,7 @@
 # HTML, CSS & JavaScript Sign-Up Form
 ### MVP v1.0
 
-![mvp1-preview](./mvp1.png)
+![mvp1-preview](./mvpv1.png)
 
 This webpage is a simple sign-up form with a little of validation practice.
 
