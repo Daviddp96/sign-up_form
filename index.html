@@ -23,48 +23,49 @@
                 <div class="form-inputs">
                     <div class="input-group">
                         <p>
-                            <label for="">First Name</label>
-                            <input type="text">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" placeholder="John" required>
                         </p>
                     </div>
                     <div class="input-group">
                         <p>
-                            <label for="">Last Name</label>
-                            <input type="text">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" placeholder="Smith" required>
                         </p>
                     </div>
                     <div class="input-group">
                         <p>
-                            <label for="">Email</label>
-                            <input type="text">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="john@smith.com" required>
                         </p>
                     </div>
                     <div class="input-group">
                         <p>
-                            <label for="">Phone Number</label>
-                            <input type="text">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+1386999123" required>
                         </p>
                     </div>
                     <div class="input-group">
                         <p>
-                            <label for="">Password</label>
-                            <input type="text">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Type a password here" required>
                         </p>
                     </div>
                     <div class="input-group">
                         <p>
-                            <label for="">Confirm Password</label>
-                            <input type="text">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" id="confirmPassword" placeholder="Repeat your password" required>
                         </p>
                     </div>
                 </div>
             </form>
             <div class="form-actions">
                 <!-- HTML !-->
-                <button class="button" role="button">Create account</button>
+                <button class="button" type="submit" role="button" id="createAccount">Create account</button>
                 <p>Already have an account? <a href="#">Log In</a></p>
             </div>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

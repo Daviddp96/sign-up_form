@@ -119,6 +119,15 @@ main {
   color: var(--clr-text);
 }
 
+.input-group input.invalid {
+    border: 1px solid hsl(0, 73%, 48%);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s !important;
+}
+
 .form-actions {
   display: flex;
   flex-direction: column;
@@ -211,6 +220,10 @@ main {
 
     .input-group {
         width: 40%;
+    }
+
+    .form-actions {
+        align-items: flex-start;
     }
 }
 
